@@ -9,8 +9,8 @@ import struct
 class GlobalHeader:
 
 	magic_number = None		# uint32
-	version_minor = None	# uint16
-	version_major = None	# uint16
+	version_minor = None		# uint16
+	version_major = None		# uint16
 	thiszone = None			# int32
 	sigfigs = None			# uint32
 	snaplen = None			# uint32
@@ -37,7 +37,7 @@ class PacketHeader:
 
 class IPV4Header:
 
-	ihl = None				# int
+	ihl = None			# int
 	total_length = None		# int
 	src_ip = None			# str
 	dst_ip = None			# str
@@ -69,7 +69,7 @@ class TCPHeader:
 	flags = None			# dict
 	window_size = None		# int
 	checksum = None			# int
-	ugp = None				# int
+	ugp = None			# int
 
 	def __init__(self):
 		self.src_port = 0
@@ -130,9 +130,9 @@ class TCPHeader:
 class Packet:
 
 	header = None			# PacketHeader
-	ipv4 = None				# IPV4Header
-	tcp = None				# TCPHeader
-	data = None				# byte
+	ipv4 = None			# IPV4Header
+	tcp = None			# TCPHeader
+	data = None			# byte
 	payload = None			# int
 	timestamp = None		# int
 
