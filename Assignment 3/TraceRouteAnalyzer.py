@@ -9,8 +9,8 @@ import struct
 class GlobalHeader:
 
 	magic_number = None		# uint32
-	version_minor = None	# uint16
-	version_major = None	# uint16
+	version_minor = None		# uint16
+	version_major = None		# uint16
 	thiszone = None			# int32
 	sigfigs = None			# uint32
 	snaplen = None			# uint32
@@ -37,12 +37,12 @@ class PacketHeader:
 
 class IPV4Header:
 
-	ihl = None				# int
+	ihl = None			# int
 	total_length = None		# int
-	identification = None	# int
+	identification = None		# int
 	flags = None			# int
-	fragment_offset = None	# int
-	ttl = None				# int
+	fragment_offset = None		# int
+	ttl = None			# int
 	protocol = None			# int
 	src_ip = None			# str
 	dst_ip = None			# str
@@ -137,10 +137,10 @@ class ICMPHeader:
 class Packet:
 
 	header = None			# PacketHeader
-	ipv4 = None				# IPV4Header
-	icmp = None				# ICMPHeader
-	udp = None				# UDPHeader
-	data = None				# byte
+	ipv4 = None			# IPV4Header
+	icmp = None			# ICMPHeader
+	udp = None			# UDPHeader
+	data = None			# byte
 	payload = None			# int
 	timestamp = None		# int
 
