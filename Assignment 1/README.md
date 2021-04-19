@@ -10,7 +10,7 @@ Given the URL of a web server, SmartClient.py finds out the following informatio
 3. whether or not the web server supports http2,
 4. the cookie name, the expire time (if any), and the domain name (in any) of cookies that the web server will use.
 
-Run by executing the following command:
+Run by providing the URL of a website:
 ```
 python SmartClient.py <url>
 ```
