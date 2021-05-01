@@ -10,3 +10,11 @@ An introduction to concepts in computer communication and networks. Topics inclu
 - Transport layer services (UDP, TCP)
 - Network layer (IP)
 - Link layer (MAC, 802.3 and 802.11)
+
+# In this repository
+
+## [A1: SmartClient](./Assignment%201)
+
+## [A2: TCPAnalyzer](./Assignment%202)
+
+## [A3: TraceRouteAnalyzer](./Assignment%203)
